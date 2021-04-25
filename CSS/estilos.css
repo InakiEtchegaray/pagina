@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-14.jpg) no-repeat ;
+    background-size: cover;
+    overflow-y: hidden;
+}
+.main {
+    width: 500px;
+    flex-direction: row;
+    background-color: rgba(20, 18, 18, 0.692);
+    border-radius: 20px;
+    margin: 150px auto;   
+    padding: 20px;
+    color: white;
+    text-align: center;
+    animation: fadeInUp 2s;
+}
+.imagen #avatar {
+    transition-duration: 0.5s;
+}
+.imagen #avatar:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+.user {
+    font-family: 'Courier New', Courier, monospace;
+}
+.user h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 30px 0 20px;
+}
+.user h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+.info {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.redes ul {
+    list-style: none;
+    margin-top:20px;
+}
+
+.redes ul li {
+    display: inline-block;
+}
+
+.redes ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 0 15px 0;
+    display: block;
+    transition-duration: 0.5s;
+}
+
+.redes ul li a:hover {
+    color: red;
+    transform: scale(1.3);
+    transition-duration: 0.2s;
+}
